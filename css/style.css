@@ -43,7 +43,6 @@ footer {
 .links-list li {
     list-style: none;
     background-color: var(--grey);
-    border: 0px solid red;
     border-radius: 6px;
     padding: 10px 0px;
     margin-bottom: 10px;
