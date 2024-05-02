@@ -47,8 +47,13 @@ footer {
     padding: 10px 0px;
     margin-bottom: 10px;
 }
+.links-list li:hover {
+    background-color: var(--green);
+    cursor: pointer;
+}
 .links-list li a {
     text-decoration: none;
+
 }
 
 .location {
