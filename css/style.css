@@ -18,8 +18,15 @@ body {
 .card {
     background-color: var(--dark-grey);
     text-align: center;
+    padding: 1.5em;
     color: var(--white);
 }
+
+.card img {
+    border-radius: 100px;
+    margin: auto;
+}
+
 footer {
     position: absolute;
     bottom: 0;
