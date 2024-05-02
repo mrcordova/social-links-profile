@@ -14,17 +14,21 @@ body {
    align-items: center;
    justify-content: center;
    background-color: var(--off-black);
+   font-size: var(--body-font-size);
 }
 .card {
     background-color: var(--dark-grey);
+    border-radius: 10px;
     text-align: center;
-    padding: 1.5em;
+    padding: 1.9em;
+    width: 350px;
     color: var(--white);
 }
 
 .card img {
     border-radius: 100px;
     margin: auto;
+    width: 80px;
 }
 
 footer {
@@ -32,15 +36,26 @@ footer {
     bottom: 0;
 }
 
+.links-list {
+    padding-left: 0px;
+}
+
 .links-list li {
     list-style: none;
     background-color: var(--grey);
     border: 0px solid red;
-    border-radius: 4px;
-    padding: 20px;
+    border-radius: 6px;
+    padding: 10px 0px;
     margin-bottom: 10px;
 }
 
+
+.location {
+    color: var(--green);
+    font-size: 12px;
+    margin-top: 8px;
+
+}
 
 /* custom google font */
 .inter-400 {
