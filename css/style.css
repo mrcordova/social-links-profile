@@ -47,7 +47,9 @@ footer {
     padding: 10px 0px;
     margin-bottom: 10px;
 }
-
+.links-list li a {
+    text-decoration: none;
+}
 
 .location {
     color: var(--green);
