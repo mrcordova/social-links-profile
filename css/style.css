@@ -1,0 +1,15 @@
+
+:root {
+    --green: hsl(75, 94%, 57%);
+}
+
+body {
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
